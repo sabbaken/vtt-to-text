@@ -1,0 +1,17 @@
+{
+  "name": "vtt-to-text",
+  "version": "1.0.0",
+  "description": "Converts vtt captions to plain text",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "vtt"
+  ],
+  "author": "Sabbaken",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
