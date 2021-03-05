@@ -7,7 +7,7 @@ const vttToPlainText = (vttCaption) => {
   vttCaption = vttCaption.replace(/<\/c>/g, '');
   vttCaption = vttCaption.replace(/<.+?>/g, '');
   vttCaption = vttCaption.replace(/^\s*$/g, '');
-  vttCaption = vttCaption.replace(/&nbsp;/g, '');
+  vttCaption = vttCaption.replace(/&nbsp;/g, ' ');
 
   let lines = vttCaption.split('\n');
   lines.splice(0, 4);

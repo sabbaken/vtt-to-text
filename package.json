@@ -9,6 +9,14 @@
   "keywords": [
     "vtt"
   ],
+  "homepage": "https://github.com/Sabbaken/vtt-to-text",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sabbaken/vtt-to-text"
+  },
+  "bugs": {
+    "url": "https://github.com/Sabbaken/vtt-to-text/issues"
+  },
   "author": "Sabbaken",
   "license": "MIT",
   "devDependencies": {
